@@ -1,0 +1,203 @@
+*
+{
+
+    margin: 0px;
+    color: blue;	
+}
+header
+{
+    background-color:yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    flex-direction: row;
+}
+header>h1
+{
+    color: blue;
+}
+header>#links>a
+{
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+}
+header>#links>a:hover
+{
+    text-decoration: underline;
+
+}
+@media (min-width:0px) and (max-width:900px)
+{
+    header
+    {
+        flex-direction: column;
+        height: 75px;
+    }
+    header>#links
+    {
+        position: relative;
+        top: -8px;
+    }
+}
+#landing-page
+{
+    text-align: center;
+    background:white url("../images/bg.jpg");
+    color: yellow;
+    height:100vh;
+    background-size: cover;
+    font-size: 20px;
+    
+}
+#landing-page>.content-section
+{
+    background:rgba(0,0, 0.5, 0.6);
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing-page>.content-section>p
+{
+    color: yellow;
+}
+
+#landing-page>.content-section>h1
+{
+    color: yellow;
+}
+#landing-page>.content-section>button
+{
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    box-shadow: 0 0 10 white;
+}
+
+
+h1{
+    font-size: 40px;
+    color:blue;
+}
+
+p
+{
+    font-size: 18px;
+    color: darkblue;
+}
+
+button
+{
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+section
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#players-section
+{
+    margin-top: 10px;
+
+}
+
+#players-section>figure
+{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 5px 15px 5px 15px;
+    transition: all 1s linear 0s;
+
+}
+
+#players-section>figure:hover
+{
+    cursor: pointer;
+    width: 260px;
+}
+#players-section>figure>img
+{
+    border-radius: 5px 15px 5px 15px;
+
+}
+
+
+
+figure
+{
+    box-shadow: 0 0 10px blue;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border: 2px solid blue;
+    display: inline-block;
+    margin:10px;
+
+}
+
+figure>img
+{
+    width: inherit;
+    height: inherit;
+    margin-top: 0px;
+}
+
+#players-section>figure:hover
+{
+    cursor: pointer;
+    width: 260px;
+}
+
+figcaption:hover
+{
+    text-decoration: underline;
+
+}
+
+
+
+top-order-batsman
+{
+    padding: 10px;
+}
+
+button
+{
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    box-shadow: 0 0 10 white;	
+}
+
+
+section>footer
+{
+    background-color:yellow;
+    margin-top: 0px;
+    height: 80px;
+    text-align: right;
+    
+}
+
+
+
+
